@@ -135,4 +135,10 @@ mysql -u root -p < filename.sql
 ```
 **Step 11:** Browse to `http://ip-of-ctfserver/` to be redirected to `/level1`. You can now begin!
 
+## Get in touch!
+- [Twitter @riyazwalikar](https://twitter.com/riyazwalikar)
+- [Blog](https://ibreak.software/)
+
+### Happy Hacking!
+
 
