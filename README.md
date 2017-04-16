@@ -21,7 +21,7 @@ Level 8: b7ebfe2a47f711a7b2b5bff057600a2c (Hackim Web 500)<br />
 
 **Step 1:** Install nginx and php7.0 and mysql-server. Here is a good resource: <https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04>
 <br/>
-**Step 2:** Clone these folders in `/var/www/html`
+**Step 2:** Clone the 8 ctf levels and the 2 config directories (web200private and web500private) in `/var/www/html`
 <br/>
 **Step 3:** The `/etc/nginx/nginx.conf` is given below:
 
