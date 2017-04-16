@@ -77,7 +77,7 @@ Test every parameter.
 
 
 ## Let's Capture some flags!
-http://192.168.56.100/level1/
+http://ctf-server-ip/level1/
 
 
 
@@ -90,8 +90,8 @@ http://192.168.56.100/level1/
 
 
 ## References
-- `https://docs.python.org/2.4/lib/standard-encodings.html`
-- `https://ctftime.org/`
-- `https://writeups.easyctf.com/`
-- `https://www.reddit.com/r/securityCTF/`
-- `https://github.com/ctfs/write-ups-2017`
+- <https://docs.python.org/2.4/lib/standard-encodings.html>
+- <https://ctftime.org/>
+- <https://writeups.easyctf.com/>
+- <https://www.reddit.com/r/securityCTF/>
+- <https://github.com/ctfs/write-ups-2017>
