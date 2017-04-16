@@ -126,5 +126,13 @@ mysql -u root -p < filename.sql
 
 **Step 9:** Create a new user called `james` and in the user's home directory `/home/james/` add a file called `flag.txt`. The contents of the file is: `The flag is: 767ca3fb84576846dc53d9efdd51c339`
 
+**Step 10:** Create a index.html in webroot outside all the level folders and put the following html in it:
+```
+<html>
+<body onload=window.location.assign('/level1')>
+</body>
+</html>
+```
+**Step 11:** Browse to `http://ip-of-ctfserver/` to be redirected to `/level1`. You can now begin!
 
 
