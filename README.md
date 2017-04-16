@@ -6,14 +6,14 @@ This document describes how you can setup the CTFs on your local machine/VM to p
 
 There are 8 levels in this release.
 
-Level 1: level1
-Level 2: 0966615f9af15abfa9bd1ef405b42aef
-Level 3: 70e6766da6d53898bcd7766a04175836
-Level 4: 767ca3fb84576846dc53d9efdd51c339
-Level 5: 2da51fcf5250842da9426bdcfcd8bbc2 (Hackim Web 100)
-Level 6: 4f9361b0302d4c2f2eb1fc308587dfd6 (Hackim Web 200)
-Level 7: bb6df1e39bd297a47ed0eeaea9cac7ee (Hackim Web 400)
-Level 8: b7ebfe2a47f711a7b2b5bff057600a2c (Hackim Web 500)
+Level 1: level1<br />
+Level 2: 0966615f9af15abfa9bd1ef405b42aef<br />
+Level 3: 70e6766da6d53898bcd7766a04175836<br />
+Level 4: 767ca3fb84576846dc53d9efdd51c339<br />
+Level 5: 2da51fcf5250842da9426bdcfcd8bbc2 (Hackim Web 100)<br />
+Level 6: 4f9361b0302d4c2f2eb1fc308587dfd6 (Hackim Web 200)<br />
+Level 7: bb6df1e39bd297a47ed0eeaea9cac7ee (Hackim Web 400)<br />
+Level 8: b7ebfe2a47f711a7b2b5bff057600a2c (Hackim Web 500)<br />
 
 ## Pre-reqs
 
