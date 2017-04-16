@@ -108,7 +108,12 @@ allow_url_fopen = Off
 allow_url_include = Off
 ```
 
-**Step 7:** Run the following queries in MySQL to setup the users for some of the levels:
+**Step 7:** Import the sql file at `web500private/THISISTHEDBFORLEVELWEB500-DUMDUM.sql` and `web200private/THISISTHEDBFORLEVELWEB200-DUMDUM.sql`. The following command can be used:
+```
+mysql -u root -p < filename.sql
+```
+
+**Step 8:** Run the following queries in MySQL to setup the users for some of the levels:
 ```
 CREATE USER 'nonroot'@'%' IDENTIFIED BY PASSWORD '*628FA1DF6BE51A340F635D86203E4B16606EBDC4';
 GRANT SELECT ON hackimweb500.* TO 'nonroot'@'%';
@@ -121,12 +126,7 @@ CREATE USER 'newton'@'%' IDENTIFIED BY PASSWORD '*F9A4F3ADAF33A64101AA71BD5E193E
 GRANT SELECT ON hackimweb400.* TO 'newton'@'%';
 ```
 
-**Step 8:** Import the sql file at `web500private/THISISTHEDBFORLEVELWEB500-DUMDUM.sql` and `web200private/THISISTHEDBFORLEVELWEB200-DUMDUM.sql`. The following command can be used:
-```
-mysql -u root -p < filename.sql
-```
-
-**Step 9:** Create a new user called `james` and in the user's home directory `/home/james/` add a file called `flag.txt`. The contents of the file is: `The flag is: 767ca3fb84576846dc53d9efdd51c339`
+**Step 9:** Create a new system user called `james` and in the user's home directory `/home/james/` add a file called `flag.txt`. The contents of the file is: `The flag is: 767ca3fb84576846dc53d9efdd51c339`
 
 **Step 10:** Create a index.html in webroot outside all the level folders and put the following html in it:
 ```
