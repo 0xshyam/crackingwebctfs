@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>
+Level 1
+</title>
+</head>
+<body>
+<h1>Level 1</h1>
+<h2>Rot in Hell!</h2>
+<form method="POST" autocomplete="off">
+<p>Username: <input type="text" name="user" id="user"></p>
+<p>Password: <input type="password" name="pass" id="pass"></p>
+
+<p>
+<input type="submit" value="Submit"/> 
+<input type="reset" value="Reset"/>
+</p>
+</form>
+
+<?php
+error_reporting(0);
+$FLAG = md5('This is a good start!!'); //0966615f9af15abfa9bd1ef405b42aef
+#print $FLAG;
+if (!empty($_POST['user']) && !empty($_POST['pass'])) {
+
+if(checklogin($_POST['user'],$_POST['pass'])){
+    echo "<font style=\"color:#FF0000\"><h3>The flag is: $FLAG</h3><br\></font\>";
+}else{
+    echo "<font style=\"color:#FF0000\">Invalid credentials! Please try again!<br\></font\>";
+}
+
+}
+
+function checklogin($u,$p)
+{
+if ($u === "Madrid" && $p === "Casablanca"){
+
+return true;
+}
+}
+?>
+
+</body>
+</html>
+
+
+<!--
+01000111 01110101 01110010 00100000 01101000 01100110 01110010 01100101 01100001 01101110 01111010 01110010 00100000 01101110 01100001 01110001 00100000 01100011 01101110 01100110 01100110 01101010 01100010 01100101 01110001 00100000 01101110 01100101 01110010 00100000 01101010 01110101 01101110 01100111 00100000 01101100 01100010 01101000 00100000 01101010 01100010 01101000 01111001 01110001 00100000 01110011 01110110 01100001 01110001 00100000 01101110 01100111 00100000 00110100 00110000 00101110 00110100 00110001 00110110 00111000 00100000 01000001 00101100 00100000 00110011 00101110 00110111 00110000 00110011 00111000 00100000 01001010 00100000 01101110 01100001 01110001 00100000 00110011 00110011 00101110 00110101 00110111 00110011 00110001 00100000 01000001 00101100 00100000 00110111 00101110 00110101 00111000 00111001 00111000 00100000 01001010
+-->
