@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /css/
+Disallow: /less/
+Disallow: /private/
+Disallow: /phpmyadmin/
+Disallow: /tools/
